@@ -42,7 +42,11 @@
         font-weight: 500;
         font-size: 15px;
       }
-      .red {
+      .nav-links ul li a {
+        text-decoration: none;
+        color: black;
+      }
+      .nav-links ul li .red {
         color: rgb(200, 5, 5);
       }
 
@@ -53,11 +57,43 @@
         border-bottom: 1px solid black;
         padding: 20px;
         font-size: 20px;
+        margin-right: -100px;
       }
 
       .search-container p {
         margin-left: 20px;
         color: rgb(94, 94, 94);
+      }
+
+      /* Express Delivery */
+
+      .express-delivery {
+        margin-left: -50px;
+      }
+      .express-delivery button {
+        background-color: rgb(200, 5, 5);
+        border-radius: 25px;
+        border: none;
+        width: 220px;
+        height: 50px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 14px;
+      }
+      .express-delivery button i {
+        font-size: 20px;
+      }
+      .delivery-texts {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-flow: column;
+        margin-left: 6px;
+      }
+      .delivery-texts p i {
+        font-size: 10px;
       }
     </style>
   </head>
@@ -73,13 +109,13 @@
       </div>
       <div class="nav-links">
         <ul>
-          <li>NEW</li>
-          <li>MEN</li>
-          <li>WOMEN</li>
-          <li>ICONS</li>
-          <li>SPORTS</li>
-          <li>CLASSIC</li>
-          <li class="red">SALE</li>
+          <li><a href="">NEW</a></li>
+          <li><a href="">MEN</a></li>
+          <li><a href="">WOMEN</a></li>
+          <li><a href="">ICONS</a></li>
+          <li><a href="">SPORTS</a></li>
+          <li><a href="">CLASSIC</a></li>
+          <li><a href="" class="red">SALE</a></li>
         </ul>
       </div>
       <div class="search-container">
@@ -87,13 +123,15 @@
         <p>Search Classic</p>
       </div>
       <div class="express-delivery">
-        <i class="fa-solid fa-truck-fast"></i>
-        <div class="delivery-texts">
-          Express Delivery
-          <p>
-            Select your nearest store <i class="fa-solid fa-angle-right"></i>
-          </p>
-        </div>
+        <button>
+          <i class="fa-solid fa-truck-fast"></i>
+          <div class="delivery-texts">
+            <h3>Express Delivery</h3>
+            <p>
+              Select your nearest store <i class="fa-solid fa-angle-right"></i>
+            </p>
+          </div>
+        </button>
       </div>
     </div>
     <script
