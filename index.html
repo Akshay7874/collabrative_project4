@@ -1,15 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="./style.css">
+<!-- ----------------------------------Done By P Sai Teja------------------------------------------- -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: white;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            padding: 10px;
+            box-sizing: border-box;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            cursor: pointer;
+        }
+
+        .cart {
+            position: relative;
+            width: 340px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            overflow: hidden;
+            border-radius: 10px;
+            background-color: white;
+        }
+
+        .cart img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+
+        .label-heart {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            right: 10px;
+        }
+
+        .label {
+            background-color: #00c8c8;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 12px;
+        }
+
+        .heart {
+            font-size: 24px;
+            color: black;
+            cursor: pointer;
+        }
+
+        .description {
+            padding: 10px;
+            text-align: left;
+        }
+
+        .description p {
+            margin: 5px 0;
+        }
+    </style>
 </head>
-
 <body>
-
+    <div class="container">
+        <div class="cart">
+            <div class="label-heart">
+                <div class="label">I AM THE NEW</div>
+                <div class="heart">&#9825;</div>
+            </div>
+            <img src="https://imagescdn.reebok.in/img/app/product/8/871819-13377701.jpg?auto=format&w=390" alt="Reebok Shoe">
+            <div class="description">
+                <p>RUNNING SHOES</p>
+                <p>Reebok Women Floatride Energy 5 Running Shoes</p>
+                <p>Rs.7,599</p>
+            </div>
+        </div>
+        <div class="cart">
+            <div class="label-heart">
+                <div class="label">I AM THE NEW</div>
+                <div class="heart">&#9825;</div>
+            </div>
+            <img src="https://imagescdn.reebok.in/img/app/product/1/1000862-13403250.jpg?auto=format&w=390" alt="Reebok Shoe">
+            <div class="description">
+                <p>RUNNING SHOES</p>
+                <p>Reebok Men Runner</p>
+                <p>Rs.5,499</p>
+            </div>
+        </div>
+        <div class="cart">
+            <div class="label-heart">
+                <div class="label">I AM THE NEW</div>
+                <div class="heart">&#9825;</div>
+            </div>
+            <img src="https://imagescdn.reebok.in/img/app/product/3/39642820-13349968.jpg?auto=format&w=390" alt="Reebok Shoe">
+            <div class="description">
+                <p>CASUAL SHOES</p>
+                <p>Reebok Classic Leather</p>
+                <p>Rs.4,999</p>
+            </div>
+        </div>
+        <div class="cart">
+            <div class="label-heart">
+                <div class="label">I AM THE NEW</div>
+                <div class="heart">&#9825;</div>
+            </div>
+            <img src="https://imagescdn.reebok.in/img/app/product/3/39662698-13497270.jpg?auto=format&w=390" alt="Reebok Shoe">
+            <div class="description">
+                <p>SPORTS SHOES</p>
+                <p>Reebok Sports Max</p>
+                <p>Rs.6,299</p>
+            </div>
+        </div>
+    </div>
 </body>
-
+<!-- -----------------------------------Done by P Sai Teja----------------------------------------- -->
 </html>
